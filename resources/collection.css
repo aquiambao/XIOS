@@ -1,0 +1,357 @@
+html {
+  font-size: 14px;
+  text-align: center;
+  font-family: Roboto;
+}
+
+body {
+  background-image: url("/resources/images/collection-bg.jpg"), url("/resources/images/bg2.jpg");
+  text-align: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  background-position: top;
+  align-items: center;
+}
+
+.greetings {
+  display: none;
+}
+
+.container {
+  padding: 50px;
+  height: 150px;
+  width: 100%;
+}
+
+header {
+  display: block;
+  background-color: black;
+  color: white;
+  height: 50px;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 2rem;
+}
+.header img {
+  height: 25px;
+  margin: 5px;
+}
+
+.navigation {
+  margin-top: 5%;
+  width: 90%;
+}
+
+.nav-justified {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  color: white;
+}
+.navbar-light {
+  background-color: rgba(0, 0, 10, 0.5);
+  box-sizing: border-box;
+  border: 2px solid white;
+}
+
+.navbar-toggler {
+  background-color: white;
+}
+
+.navbar-light .nav-justified .nav-link {
+    color: #f8f9fa;
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.navbar-light .nav-justified .nav-link:hover {
+    color: #ae8fb4;
+}
+
+.banner {
+  margin-top: 200px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.row > .column {
+  padding: 10px 25px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 68%;
+  overflow: scroll;
+}
+.column-button {
+  background-color: rgba(0, 0, 0, .5);
+  color: white;
+  box-sizing: border-box;
+  border: 2px solid white;
+  font-size: 2rem;
+  width: auto;
+  padding: 10px;
+  margin-top: 5%;
+}
+
+.column-button:hover {
+  color: red;
+  background-color: white;
+  font-weight: 500;
+  transition: 0.3s;
+}
+.column {
+  width: 10%;
+}
+
+.gallery {
+  width: 100%;
+  top: 50%;
+}
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 10px;
+  width: 90%;
+  height: 900px;
+  display: flex;
+  flex-direction: row;
+  background-image: url("/resources/images/bg-ny-white.jpg");
+  background-size: cover;
+}
+
+.hover .cursor {
+  width: 45%;
+}
+
+.slides {
+  width: 32%;
+}
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 50px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.mySlides img {
+  width: 95%;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.controls {
+  display: flex;
+  top: 50%;
+  z-index: 1000;
+  position: absolute;
+  width: 30%;
+  justify-content: space-between;
+}
+.prev,
+.next {
+  cursor: pointer;
+  width: auto;
+  padding: 50px;
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+img {
+  margin-bottom: -4px;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: white;
+  text-align: center;
+  height: 120px;
+  color: black;
+}
+
+.copyright {
+  margin-top: 60px;
+}
+
+
+@media only screen and (max-width: 400px){
+
+  .contact {
+    display: none;
+  }
+
+  .header {
+    justify-content: center;
+  }
+
+  div.modal-content {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  div.slides {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  div.column-box {
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  div.controls {
+    top: 25%;
+    width: 100%;
+  }
+
+  .navigation {
+    width: 100%;
+  }
+
+  .nav-justified {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .row {
+    margin: 0;
+    position: relative;
+    top: 130%;
+  }
+
+}
+
+@media only screen and (max-width: 1024px){
+  .modal-content {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .slides {
+    width: 50%;
+  }
+
+  .column-box {
+    width: 50%;
+  }
+
+  .column {
+    width: 20%;
+  }
+
+  .controls {
+    top: 25%;
+    width: 45%;
+  }
+
+}

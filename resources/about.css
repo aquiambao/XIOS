@@ -1,0 +1,179 @@
+html {
+  font-size: 14px;
+  text-align: center;
+  font-family: Roboto;
+
+}
+
+body {
+  background-image: url("/resources/images/about-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  background-position: center;
+}
+
+.greetings {
+  display: none;
+}
+
+.container {
+  /* padding: 50px; */
+  width: 100%;
+  height: auto;
+}
+
+header {
+  display: block;
+  background-color: black;
+  color: white;
+  height: 50px;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 2rem;
+}
+.header img {
+  height: 25px;
+  margin: 5px;
+}
+
+.navigation {
+  margin-top: 8%;
+}
+
+.nav-justified {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  color: white;
+}
+.navbar-light {
+  background-color: rgba(0, 0, 10, 0.5);
+  box-sizing: border-box;
+  border: 2px solid white;
+}
+
+.navbar-toggler {
+  background-color: white;
+}
+
+.navbar-light .nav-justified .nav-link {
+    color: #f8f9fa;
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.navbar-light .nav-justified .nav-link:hover {
+    color: #ae8fb4;
+}
+
+.about {
+  color: white;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.text {
+  margin-right: 25px;
+}
+
+.text span {
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 2;
+  font-weight: 500;
+  text-shadow: 2px 2px black;
+}
+.text img {
+}
+
+.contact-info {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+
+.contact-info h2 {
+  font-size: 4rem;
+}
+
+.mission {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  bottom: 25px;
+  border-radius: 5px;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: white;
+  text-align: center;
+  height: 120px;
+  color: black;
+}
+
+.copyright {
+  margin-top: 60px;
+}
+
+@media only screen and (max-width: 400px){
+
+  body {
+    height: auto;
+  }
+
+  .contact {
+    display: none;
+  }
+
+  .header {
+    justify-content: center;
+  }
+
+  .navigation {
+    width: 100%;
+    margin-top: 18%;
+  }
+
+  .nav-justified {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .info {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .text {
+    margin: 0;
+  }
+  .text span {
+    font-size: 1.7rem;
+  }
+
+
+}

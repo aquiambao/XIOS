@@ -1,0 +1,152 @@
+html {
+  font-size: 14px;
+  text-align: center;
+  font-family: Roboto;
+
+}
+
+body {
+  background-image: url("/resources/images/home-bg.jpg");
+  background-repeat: no-repeat;
+  text-align: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  background-position: center;
+  align-items: center;
+}
+
+.greetings {
+  display: none;
+}
+
+.container {
+  padding: 50px;
+  height: 150px;
+  width: 100%;
+}
+
+header {
+  display: block;
+  background-color: black;
+  color: white;
+  height: 50px;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 2rem;
+}
+.header img {
+  height: 25px;
+  margin: 5px;
+}
+
+.navigation {
+  margin-top: 5%;
+  width: 90%;
+}
+
+.nav-justified {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  color: white;
+}
+.navbar-light {
+  background-color: rgba(0, 0, 10, 0.5);
+  box-sizing: border-box;
+  border: 2px solid white;
+}
+
+.navbar-toggler {
+  background-color: white;
+}
+
+.navbar-light .nav-justified .nav-link {
+    color: #f8f9fa;
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.navbar-light .nav-justified .nav-link:hover {
+    color: #ae8fb4;
+}
+
+.banner {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  align-self: center;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: white;
+  text-align: center;
+  height: 120px;
+  color: black;
+}
+
+.copyright {
+  margin-top: 60px;
+}
+
+@media only screen and (max-width: 400px){
+
+  body {
+    height: 700px;
+  }
+
+  .banner {
+    width: 120%;
+    margin-top: 40%;
+  }
+
+  .contact {
+    display: none;
+  }
+
+  .header {
+    justify-content: center;
+  }
+
+  .navigation {
+    width: 100%;
+  }
+
+  .nav-justified {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .row {
+    margin: 0;
+    position: relative;
+    top: 130%;
+  }
+
+}
+@media only screen and (max-width: 1000px) {
+  .banner {
+    width: 50%;
+  }
+}
