@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  background-image: url("../resources/images/location.jpg");
+  background-image: url("/resources/images/home-bg.jpg");
   background-repeat: no-repeat;
   text-align: center;
   background-size: cover;
@@ -103,9 +103,9 @@ header {
   flex-wrap: wrap;
   text-align: left;
   list-style: none;
-  width: 50%;
+  width: 100%;
   padding: 0;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .local li {
@@ -113,6 +113,10 @@ header {
   margin-bottom: 20px;
 }
 
+.hours {
+  font-weight: 500;
+  color: #002366;
+}
 .map {
   width: 50%;
   overflow: hidden;
@@ -157,10 +161,12 @@ div.i4ewOd-pzNkMb-haAclf {
   display: none;
 }
 
-@media only screen and (max-width: 400px){
+@media only screen and (min-width: 375px){
 
   body {
     height: auto;
+    background-color: #0000da;
+    background-image: linear-gradient(#0000da,#002366 );
   }
 
   .contact {

@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  background-image: url("../resources/images/collection-bg.jpg"), url("./resources/images/bg2.jpg");
+  background-image: url("/resources/images/collection-bg.jpg"), url("/resources/images/bg2.jpg");
   text-align: center;
   background-size: cover;
   display: flex;
@@ -282,7 +282,7 @@ img.hover-shadow {
 }
 
 
-@media only screen and (max-width: 400px){
+@media only screen and (min-width: 375px){
 
   .contact {
     display: none;
@@ -310,7 +310,7 @@ img.hover-shadow {
   }
 
   div.controls {
-    top: 25%;
+    top: 10%;
     width: 100%;
   }
 

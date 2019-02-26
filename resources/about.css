@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  background-image: url("../resources/images/about-bg.jpg");
+  background-image: url("/resources/images/home-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -108,7 +108,7 @@ header {
 }
 
 .contact-info {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 1);
   padding: 10px;
 }
 
@@ -139,7 +139,7 @@ header {
   margin-top: 60px;
 }
 
-@media only screen and (max-width: 400px){
+@media only screen and (min-width: 375px){
 
   body {
     height: auto;
@@ -170,6 +170,10 @@ header {
 
   .text {
     margin: 0;
+  }
+
+  .text img {
+    width: 100%;
   }
   .text span {
     font-size: 1.7rem;
