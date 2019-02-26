@@ -8,6 +8,7 @@ html {
 body {
   background-image: url("https://aquiambao.github.io/XIOS/resources/images/home-bg.jpg");
   background-repeat: no-repeat;
+  background-color: #002366;
   text-align: center;
   background-size: cover;
   display: flex;
