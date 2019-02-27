@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  background-image: url("https://aquiambao.github.io/XIOS/resources/images/about-bg.jpg");
+  background-image: url("/resources/images/about-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -133,6 +133,7 @@ header {
   text-align: center;
   height: 120px;
   color: black;
+  position: fixed;
 }
 
 .copyright {
