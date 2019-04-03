@@ -3,7 +3,7 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
@@ -16,20 +16,20 @@
   </head>
 
   <body>
-    <header>
+    <header role="banner">
       <div class="jumbotron-fluid header">
-        <div class="contact">
+        <div class="contact" role="banner" tabindex="0">
           <img src="./resources/images/phone.png" alt="Icon of a phone">
           <span class="phone" aria-label="XIOS phone number.">201.843.3116</span>
         </div>
         <div class="greetings">
           <h1>Welcome to Xios.</h1>
         </div>
-        <img src="./resources/images/xios-only.png" alt="A logo of xios.">
+        <a href="index.html"><img src="./resources/images/xios-only.png" alt="A logo of xios."></a>
       </div>
     </header>
 
-    <div class="navigation">
+    <navigation class="navigation" role="menubar">
       <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,20 +37,21 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="nav-justified">
-              <a class="nav-item nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-              <a class="nav-item nav-link" href="collection.html">Collection</a>
-              <a class="nav-item nav-link" href="about.html">About</a>
-              <a class="nav-item nav-link" href="location.html">Stores</a>
+              <a class="nav-item nav-link" href="index.html" role="button">Home</a>
+              <a class="nav-item nav-link" href="gallery.html" role="button">Collection</a>
+              <a class="nav-item nav-link" href="about.html" role="button">About</a>
+              <a class="nav-item nav-link" href="location.html" role="button">Stores</a>
             </div>
           </div>
         </nav>
       </div>
-    </div>
+    </navigation>
 
-    <div class="jumbotron-fluid about" role="main">
+   <main>
+    <div class="jumbotron-fluid about">
       <div class="container">
         <div class="info">
-          <div class="text">
+          <div class="text" tabindex="1">
             <img src="./resources/images/xios-only.png" alt="The Xios logo.">
             <span>for young trendsetters</span>
             <div class="contact-info">
@@ -58,7 +59,8 @@
               <h2>201.843.3116</h2>
             </div>
           </div>
-          <div class="mission">
+
+          <div class="mission" tabindex="2">
             <p>As the leading provider of young men’s fashion, XIOS understands that the modern man wants to keep up with current trends but at the same time exude personal accents with their outfits.</p>
             <p>With our in-house designers, we are constantly looking for ways to not only meet the unique styles of our customers but also help them be the trailblazers of upcoming trends and fashions in the young men’s clothing industry. Because fads disappear and new trends emerge, Xios will do its best to make such trends available to our customers. We are determined to maintain our forefront as trendsetters by offering new arrivals as frequent as possible.</p>
             <p>XIOS not only stays up-to-date with the trends of North America but also the trends of Europe. XIOS is the one of the very few that provide unique clothing for the distinguishing tastes of young men who yearn to express their personality through European trends. Hence, XIOS has provided more than twenty locations on the east coast so that the average American male does not have to travel to Europe in order to purchase European influenced clothing.</p>
@@ -69,9 +71,9 @@
         </div>
       </div>
     </div>
-
+  </main>
     <!-- Footer -->
-    <footer class="footer">
+    <footer class="footer" tabindex="3">
       <!-- Copyright -->
       <div class="copyright">© 2019 Copyright:
         <a href="https://XIOS.com" style="color: black;"> XIOS.com</a>

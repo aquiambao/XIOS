@@ -3,7 +3,7 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
@@ -17,20 +17,20 @@
   </head>
 
   <body>
-    <header>
+    <header role="banner">
       <div class="jumbotron-fluid header">
-        <div class="contact">
+        <div class="contact" role="banner" tabindex="0">
           <img src="./resources/images/phone.png" alt="Icon of a phone">
           <span class="phone" aria-label="XIOS phone number.">201.843.3116</span>
         </div>
         <div class="greetings">
           <h1>Welcome to Xios.</h1>
         </div>
-        <img src="./resources/images/xios-only.png" alt="A logo of xios.">
+        <a href="index.html"><img src="./resources/images/xios-only.png" alt="A logo of xios."></a>
       </div>
     </header>
 
-    <div class="navigation">
+    <navigation class="navigation" role="menubar">
       <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,27 +38,27 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="nav-justified">
-              <a class="nav-item nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-              <a class="nav-item nav-link" href="collection.html">Collection</a>
-              <a class="nav-item nav-link" href="about.html">About</a>
-              <a class="nav-item nav-link" href="location.html">Stores</a>
+              <a class="nav-item nav-link" href="index.html" role="button">Home</a>
+              <a class="nav-item nav-link" href="gallery.html" role="button">Collection</a>
+              <a class="nav-item nav-link" href="about.html" role="button">About</a>
+              <a class="nav-item nav-link" href="location.html" role="button">Stores</a>
             </div>
           </div>
         </nav>
       </div>
-    </div>
+    </navigation>
 
-    <section class="location" role="main">
+    <main class="location" tabindex="0">
       <div class="container">
-        <div class="address">
+        <div class="address" tabindex="0" aria-label="List of XIOS locations.">
           <ul class="local">
-            <li>
+            <li tabindex="1">
               <span class="branch">Headquarter Office</span><br>
               <span>375 Chestnut St.	Norwood	NJ 	07648</span><br>
               <span class="tel">Tel: (201) 843-3116</span><br>
               <span class="hours">Mon-Fri: 9:00 am - 6:00 pm</span>
             </li>
-            <li>
+            <li tabindex="2">
               <!-- <span class="branch">New Jersey Stores:</span><br> -->
               <span class="branch">XIOS</span><br>
               <span>682 Main Ave. Passaic	NJ	07055</span><br>
@@ -67,7 +67,7 @@
               <span class="hours">Fri-Sat: 9:45 am - 7:30 pm</span><br>
               <span class="hours">Sun: 10:30 am - 7:00 pm</span><br>
             </li>
-            <li>
+            <li tabindex="3">
               <!-- <span class="branch">New Jersey Stores:</span><br> -->
               <span class="branch">XIOS</span><br>
               <span>168 E. Front St. Plainfield	NJ 07060</span><br>
@@ -76,23 +76,23 @@
               <span class="hours">Fri-Sat: 10:00 am - 7:00 pm</span><br>
               <span class="hours">Sun: 10:30 am - 6:00 pm</span><br>
             </li>
-            <li>
+            <li tabindex="4">
               <!-- <span class="branch">New Jersey Stores:</span><br> -->
               <span class="branch">XIOS</span><br>
               <span>3612-3614 Bergenline Ave.	Union City NJ	07087</span><br>
-              <span class="tel">Tel: (201) 293-5077</span><br>
+              <span class="tel">Tel: (201)758-5001</span><br>
               <span class="hours">Mon-Sat: 9:45 am - 8:00 pm</span><br>
               <span class="hours">Sun: 10:00 am - 7:00 pm</span><br>
             </li>
-            <li>
+            <li tabindex="5">
               <!-- <span class="branch">New Jersey Stores:</span><br> -->
               <span class="branch">XIOS</span><br>
               <span>5721 Bergenline Ave. West New York NJ	07093</span><br>
-              <span class="tel">Tel: (201) 758-5001</span><br>
+              <span class="tel">Tel: (201)293-5077</span><br>
               <span class="hours">Mon-Sat: 9:45 am - 8:00 pm</span><br>
               <span class="hours">Sun: 10:00 am - 7:30 pm</span><br>
             </li>
-            <li>
+            <li tabindex="6">
               <!-- <span class="branch">New Jersey Stores:</span><br> -->
               <span class="branch">XIOS</span><br>
               <span>158-160 Ferry St.	Newark	NJ	07105</span><br>
@@ -101,7 +101,7 @@
               <span class="hours">Fri-Sat: 9:45 am - 8:00 pm</span><br>
               <span class="hours">Sun: 10:00 am - 7:00 pm</span><br>
             </li>
-            <li>
+            <li tabindex="7">
               <!-- <span class="branch">New Jersey Stores:</span><br> -->
               <span class="branch">XIOS</span><br>
               <span>"The Mills at Jersey Gardens"651 Kapkowski Rd. #21-06"	Elizabeth	NJ	07201</span><br>
@@ -110,7 +110,7 @@
               <span class="hours">Fri-Sat: 10:00 am - 9:00 pm</span><br>
               <span class="hours">Sun: 11:00 am - 7:00 pm</span><br>
             </li>
-            <li>
+            <li tabindex="8">
               <!-- <span class="branch">New Jersey Stores:</span><br> -->
               <span class="branch">XIOS</span><br>
               <span>201 Main St.	Paterson	NJ	07505</span><br>
@@ -119,7 +119,7 @@
               <span class="hours">Fri-Sat: 9:45 am - 7:45 pm</span><br>
               <span class="hours">Sun: 10:00 am - 6:30pm</span><br>
             </li>
-            <li>
+            <li tabindex="9">
               <!-- <span class="branch">New Jersey Stores:</span><br> -->
               <span class="branch">XIOS</span><br>
               <span>142 Smith St.	Perth Amboy	NJ	08861</span><br>
@@ -128,7 +128,7 @@
               <span class="hours">Fri-Sat: 9:45 am - 7:45 pm</span><br>
               <span class="hours">Sun: 10:00 am - 6:00 pm</span><br>
             </li>
-            <li>
+            <li tabindex="10">
               <!-- <span class="branch">New York Stores:</span><br> -->
               <span class="branch">XIOS</span><br>
               <span>1370 Saint Nicholas Ave.	New York	NY	10033</span><br>
@@ -137,7 +137,7 @@
               <span class="hours">Fri-Sat: 9:45 am - 8:00 pm</span><br>
               <span class="hours">Sun: 10:00 am - 7:00 pm</span><br>
             </li>
-            <li>
+            <li tabindex="11">
               <!-- <span class="branch">New York Stores:</span><br> -->
               <span class="branch">XIOS</span><br>
               <span>62 E. 170th St.	Bronx	NY	10452</span><br>
@@ -146,7 +146,7 @@
               <span class="hours">Fri-Sat: 9:45 am - 8:00 pm</span><br>
               <span class="hours">Sun: 10:30 am - 7:00 pm</span><br>
             </li>
-            <li>
+            <li tabindex="12">
               <!-- <span class="branch">New York Stores:</span><br> -->
               <span class="branch">XIOS</span><br>
               <span>2923 3rd Ave.	Bronx	NY	10455</span><br>
@@ -155,7 +155,7 @@
               <span class="hours">Fri-Sat: 9:45 am - 7:30 pm</span><br>
               <span class="hours">Sun: 10:30 am - 7:00 pm</span><br>
             </li>
-            <li>
+            <li tabindex="13">
               <!-- <span class="branch">New York Stores:</span><br> -->
               <span class="branch">XIOS</span><br>
               <span>2476 Grand Concourse	Bronx	NY	10458</span><br>
@@ -164,7 +164,7 @@
               <span class="hours">Fri-Sat: 10:00 am - 8:00 pm</span><br>
               <span class="hours">Sun: 10:30 am - 7:00 pm</span><br>
             </li>
-            <li>
+            <li tabindex="14">
               <!-- <span class="branch">New York Stores:</span><br> -->
               <span class="branch">MANUS</span><br>
               <span>342 E. Fordham Rd.	Bronx	NY	10458</span><br>
@@ -173,7 +173,7 @@
               <span class="hours">Fri-Sat: 9:45 am - 8:30 pm</span><br>
               <span class="hours">Sun: 10:00 am - 7:00 pm</span><br>
             </li>
-            <li>
+            <li tabindex="15">
               <!-- <span class="branch">New York Stores:</span><br> -->
               <span class="branch">XIOS</span><br>
               <span>1030 Southern Blvd.	Bronx	NY	10459</span><br>
@@ -182,7 +182,7 @@
               <span class="hours">Fri-Sat: 9:45 am - 8:00 pm</span><br>
               <span class="hours">Sun: 10:30 am - 7:00 pm</span><br>
             </li>
-            <li>
+            <li tabindex="16">
               <!-- <span class="branch">New York Stores:</span><br> -->
               <span class="branch">XIOS</span><br>
               <span>3139 Steinway St.	Astoria	NY	11103</span><br>
@@ -191,7 +191,7 @@
               <span class="hours">Fri-Sat: 10:00 am - 8:00 pm</span><br>
               <span class="hours">Sun: 10:30 am - 7:00 pm</span><br>
             </li>
-            <li>
+            <li tabindex="17">
               <!-- <span class="branch">New York Stores:</span><br> -->
               <span class="branch">XIOS</span><br>
               <span>519 Fulton St.	Brooklyn	NY	11201</span><br>
@@ -200,7 +200,7 @@
               <span class="hours">Fri-Sat: 9:45 am - 8:00 pm</span><br>
               <span class="hours">Sun: 10:30 am - 7:00 pm</span><br>
             </li>
-            <li>
+            <li tabindex="18">
               <!-- <span class="branch">New York Stores:</span><br> -->
               <span class="branch">XIOS</span><br>
               <span>1167 Liberty Ave.	Brooklyn	NY	11208</span><br>
@@ -209,7 +209,7 @@
               <span class="hours">Fri-Sat: 9:45 am - 8:00 pm</span><br>
               <span class="hours">Sun: 10:30 am - 6:30pm</span><br>
             </li>
-            <li>
+            <li tabindex="19">
               <!-- <span class="branch">New York Stores:</span><br> -->
               <span class="branch">LA MODA</span><br>
               <span>5418 5th Ave.	Brooklyn	NY	11220</span><br>
@@ -218,7 +218,7 @@
               <span class="hours">Fri-Sat: 9:45 am - 8:00 pm</span><br>
               <span class="hours">Sun: 10:30 am - 7:00 pm</span><br>
             </li>
-            <li>
+            <li tabindex="20">
               <!-- <span class="branch">New York Stores:</span><br> -->
               <span class="branch">XIOS</span><br>
               <span>4714 5th Ave.	Brooklyn	NY	11220</span><br>
@@ -227,7 +227,7 @@
               <span class="hours">Fri-Sat: 9:45 am - 8:00 pm</span><br>
               <span class="hours">Sun: 10:00 am - 7:00 pm</span><br>
             </li>
-            <li>
+            <li tabindex="21">
               <!-- <span class="branch">New York Stores:</span><br> -->
               <span class="branch">XIOS</span><br>
               <span>402 Knickerbocker Ave.	Brooklyn	NY	11237</span><br>
@@ -236,7 +236,7 @@
               <span class="hours">Fri-Sat: 9:45 am - 7:30 pm</span><br>
               <span class="hours">Sun: 10:30 am - 7:00 pm</span><br>
             </li>
-            <li>
+            <li tabindex="22">
               <!-- <span class="branch">New York Stores:</span><br> -->
               <span class="branch">LA MODA</span><br>
               <span>37-57 Junction Blvd.	Corona	NY	11368</span><br>
@@ -245,7 +245,7 @@
               <span class="hours">Fri-Sat: 9:30 am - 9:00 pm</span><br>
               <span class="hours">Sun: 10:00 am - 8:00 pm</span><br>
             </li>
-            <li>
+            <li tabindex="23">
               <!-- <span class="branch">New York Stores:</span><br> -->
               <span class="branch">XIOS</span><br>
               <span>37-03A 82nd St.	Jackson Heights	NY	11372</span><br>
@@ -254,7 +254,7 @@
               <span class="hours">Fri-Sat: 9:45 am - 8:00 pm</span><br>
               <span class="hours">Sun: 10:00 am - 7:30pm</span><br>
             </li>
-            <li>
+            <li tabindex="24">
               <!-- <span class="branch">New York Stores:</span><br> -->
               <span class="branch">XIOS</span><br>
               <span>58-08 Myrtle Ave.	Ridgewood	NY	11385</span><br>
@@ -263,7 +263,7 @@
               <span class="hours">Fri-Sat: 9:45 am - 7:45 pm</span><br>
               <span class="hours">Sun: 10:30 am - 7:00 pm</span><br>
             </li>
-            <li>
+            <li tabindex="25">
               <!-- <span class="branch">New York Stores:</span><br> -->
               <span class="branch">XIOS</span><br>
               <span>163-06 Jamaica Ave.	Jamaica	NY	11432</span><br>
@@ -272,7 +272,7 @@
               <span class="hours">Fri-Sat: 9:30 am - 7:45 pm</span><br>
               <span class="hours">Sun: 10:00 am - 7:00 pm</span><br>
             </li>
-            <li>
+            <li tabindex="26">
               <!-- <span class="branch">New York Stores:</span><br> -->
               <span class="branch">XIOS</span><br>
               <span>"Westfield Wheaton Mall"11160 Veirs Mill Rd. #H11"	Wheaton	MD	20902</span><br>
@@ -281,7 +281,7 @@
               <span class="hours">Fri-Sat: 10:00 am - 9:30 pm</span><br>
               <span class="hours">Sun: 11:00 am - 7:00 pm</span><br>
             </li>
-            <li>
+            <li tabindex="27">
               <!-- <span class="branch">New York Stores:</span><br> -->
               <span class="branch">XIOS NEW YORK</span><br>
               <span>"Sugarloaf Mills Mall"5900 Sugarloaf Pkwy #577"	Lawrenceville	GA 30043</span><br>
@@ -292,17 +292,14 @@
             </li>
 
 
-
-
           </ul>
           <div class="map">
             <!-- <iframe src="https://www.google.com/maps/d/embed?mid=1FpvFzQBBmgrbXm-avSmBO4ZXz1HgQFee"></iframe> -->
           </div>
 
         </div>
-
       </div>
-    </section>
+    </main>
 
     <footer class="footer">
       <!-- Copyright -->

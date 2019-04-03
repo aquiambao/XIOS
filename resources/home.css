@@ -6,13 +6,13 @@ html {
 }
 
 body {
-  background-image: url("https://aquiambao.github.io/XIOS/resources/images/home-bg.jpg");
+  background-image: url("http://xiosamerica.com:6999/XIOS20190330/resources/images/home-bg.jpg");
   background-repeat: no-repeat;
   text-align: center;
   background-size: cover;
   display: flex;
   flex-direction: column;
-  background-position: bottom;
+  background-position: center;
   align-items: center;
 }
 
@@ -64,7 +64,7 @@ header {
   color: white;
 }
 .navbar-light {
-  background-color: rgba(0, 0, 10, 0.5);
+  background-color: rgba(0, 0, 10, 0.9);
   box-sizing: border-box;
   border: 2px solid white;
 }
@@ -85,9 +85,16 @@ header {
 }
 
 .banner {
-  margin-top: 5%;
+  margin-top: 50px;
   margin-bottom: 10%;
   align-self: center;
+}
+
+button {
+  background-color: black;
+  border: none;
+  padding: 0;
+  margin: 0;
 }
 
 .banner img {

@@ -1,4 +1,4 @@
-html {
+hml {
   font-size: 14px;
   text-align: center;
   font-family: Roboto;
@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  background-image: url("https://aquiambao.github.io/XIOS/resources/images/location.jpg");
+  background-image: url("/resources/images/location.jpg");
   background-repeat: no-repeat;
   text-align: center;
   background-size: cover;
@@ -21,7 +21,7 @@ body {
 }
 
 .container {
-  padding: 50px;
+  margin-top: 30px;
   width: 100%;
 }
 
@@ -51,7 +51,7 @@ header {
 }
 
 .navigation {
-  margin-top: 5%;
+  margin-top: 50px;
   width: 90%;
 }
 
@@ -63,7 +63,7 @@ header {
   color: white;
 }
 .navbar-light {
-  background-color: rgba(0, 0, 10, 0.5);
+  background-color: rgba(0, 0, 10, 0.9);
   box-sizing: border-box;
   border: 2px solid white;
 }
@@ -85,7 +85,6 @@ header {
 
 .location {
   width: 90%;
-  margin-top: -50px;
 }
 .address {
   background-color: white;
@@ -106,6 +105,13 @@ header {
   width: 100%;
   padding: 0;
   justify-content: space-around;
+}
+
+button {
+  background-color: black;
+  border: none;
+  padding: 0;
+  margin: 0;
 }
 
 .local li {
@@ -165,8 +171,7 @@ div.i4ewOd-pzNkMb-haAclf {
 
   body {
     height: auto;
-    background-color: #0000da;
-    background-image: linear-gradient(#0000da,#002366 );
+
   }
 
   .contact {
@@ -179,7 +184,7 @@ div.i4ewOd-pzNkMb-haAclf {
 
   .navigation {
     width: 100%;
-    margin-top: 18%;
+    margin-top: 50px;
   }
 
   .nav-justified {

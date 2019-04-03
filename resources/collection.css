@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  background-image: url("https://aquiambao.github.io/XIOS/resources/images/collection-bg.jpg"), url("https://aquiambao.github.io/XIOS/resources/images/bg2.jpg");
+  background-image: url("/resources/images/collection-bg.jpg"), url("/resources/images/bg2.jpg");
   text-align: center;
   background-size: cover;
   display: flex;
@@ -63,7 +63,7 @@ header {
   color: white;
 }
 .navbar-light {
-  background-color: rgba(0, 0, 10, 0.5);
+  background-color: rgba(0, 0, 10, 0.9);
   box-sizing: border-box;
   border: 2px solid white;
 }
@@ -140,7 +140,7 @@ header {
 }
 /* The Modal (background) */
 .modal {
-  display: none;
+  /* display: none; */
   position: fixed;
   z-index: 1;
   padding-top: 100px;

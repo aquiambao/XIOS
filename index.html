@@ -3,7 +3,7 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
@@ -16,20 +16,20 @@
   </head>
 
   <body>
-    <header>
+    <header role="banner">
       <div class="jumbotron-fluid header">
-        <div class="contact">
+        <div class="contact" role="banner" tabindex="0">
           <img src="./resources/images/phone.png" alt="Icon of a phone">
           <span class="phone" aria-label="XIOS phone number.">201.843.3116</span>
         </div>
         <div class="greetings">
           <h1>Welcome to Xios.</h1>
         </div>
-        <img src="./resources/images/xios-only.png" alt="A logo of xios.">
+        <a href="index.html"><img src="./resources/images/xios-only.png" alt="A logo of xios."></a>
       </div>
     </header>
 
-    <div class="navigation">
+    <navigation class="navigation" role="menubar">
       <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,19 +37,19 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="nav-justified">
-              <a class="nav-item nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-              <a class="nav-item nav-link" href="collection.html">Collection</a>
-              <a class="nav-item nav-link" href="about.html">About</a>
-              <a class="nav-item nav-link" href="location.html">Stores</a>
+              <a class="nav-item nav-link" href="index.html" role="button">Home</a>
+              <a class="nav-item nav-link" href="gallery.html" role="button">Collection</a>
+              <a class="nav-item nav-link" href="about.html" role="button">About</a>
+              <a class="nav-item nav-link" href="location.html" role="button">Stores</a>
             </div>
           </div>
         </nav>
       </div>
-    </div>
+    </navigation>
 
-    <section class="banner" role="main">
+    <main class="banner" role="main">
       <img src="./resources/images/logo.png" alt="Logo of XIOS New York clothing store.">
-    </section>
+    </main>
 
     <!-- Footer -->
     <footer class="footer">

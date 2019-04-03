@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  background-image: url("https://aquiambao.github.io/XIOS/resources/images/about-bg.jpg");
+  background-image: url("../resources/images/about-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -49,6 +49,13 @@ header {
   margin: 5px;
 }
 
+button {
+  background-color: black;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
 .navigation {
   margin-top: 8%;
 }
@@ -61,7 +68,7 @@ header {
   color: white;
 }
 .navbar-light {
-  background-color: rgba(0, 0, 10, 0.5);
+  background-color: rgba(0, 0, 10, 0.9);
   box-sizing: border-box;
   border: 2px solid white;
 }
