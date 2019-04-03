@@ -141,7 +141,7 @@ button {
   text-align: center;
   height: 100px;
   color: black;
-  position: fixed;
+  position: relative;
 }
 
 .copyright {

@@ -274,7 +274,7 @@ img.hover-shadow {
   text-align: center;
   height: 100px;
   color: black;
-  position: fixed;
+  position: relative;
 
 }
 
