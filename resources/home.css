@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  background-image: url("http://xiosamerica.com:6999/XIOS20190330/resources/images/home-bg.jpg");
+  background-image: url("../resources/images/home-bg.jpg");
   background-repeat: no-repeat;
   text-align: center;
   background-size: cover;
