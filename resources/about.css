@@ -129,6 +129,7 @@ button {
   padding: 10px;
   bottom: 25px;
   border-radius: 5px;
+  margin-bottom: 25px;
 }
 
 .footer {
@@ -141,8 +142,6 @@ button {
   height: 100px;
   color: black;
   position: fixed;
-  margin-top: 20px;
-
 }
 
 .copyright {
