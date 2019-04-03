@@ -129,7 +129,7 @@ button {
   padding: 10px;
   bottom: 25px;
   border-radius: 5px;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
 }
 
 .footer {
@@ -141,7 +141,7 @@ button {
   text-align: center;
   height: 100px;
   color: black;
-  position: relative;
+  position: fixed;
 }
 
 .copyright {
@@ -189,8 +189,7 @@ button {
   }
 
   .mission {
-    margin-bottom: 50px;
+    margin-bottom: 100px;
   }
-
 
 }
