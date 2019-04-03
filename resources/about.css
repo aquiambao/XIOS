@@ -140,7 +140,8 @@ button {
   text-align: center;
   height: 100px;
   color: black;
-  position: bottom;
+  /* position: fixed; */
+  margin-top: 20px;
 
 }
 

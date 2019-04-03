@@ -110,8 +110,7 @@ button {
   text-align: center;
   height: 100px;
   color: black;
-  position: bottom;
-
+  position: fixed;
 }
 .copyright {
   margin-top: 60px;
