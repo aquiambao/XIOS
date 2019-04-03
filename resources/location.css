@@ -136,6 +136,7 @@ button {
   top: -50px;
   bottom: 50px;
 }
+
 .footer {
   left: 0;
   bottom: 0;
@@ -143,8 +144,10 @@ button {
   background-color: white;
   color: white;
   text-align: center;
-  height: 120px;
+  height: 100px;
   color: black;
+  position: bottom;
+
 }
 
 .copyright {
