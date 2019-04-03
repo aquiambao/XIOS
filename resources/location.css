@@ -94,6 +94,7 @@ header {
   flex-wrap: wrap;
   padding: 25px;
   border-radius: 20px;
+  margin-bottom: 50px;
 }
 
 .local {
@@ -205,6 +206,7 @@ div.i4ewOd-pzNkMb-haAclf {
 
   .address {
     flex-direction: column;
+    margin-bottom: 50px;
   }
 
   .local {
